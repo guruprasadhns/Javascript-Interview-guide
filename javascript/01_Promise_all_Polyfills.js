@@ -1,3 +1,26 @@
+/**
+ * # Heading 1
+ * 
+ * This is a paragraph explaining the purpose of the file or code block.
+ * 
+ * ## Heading 2
+ * 
+ * - Point 1: Explanation of some feature.
+ * - Point 2: Highlighting another key point.
+ * 
+ * ### Code Example
+ * ```javascript
+ * function example() {
+ *     console.log("This is a code example");
+ * }
+ * ```
+ * 
+ * ## Notes
+ * 
+ * 1. Keep your comments clear and concise.
+ * 2. Follow a consistent style to make it easily readable.
+ */
+
 function _promiseAll(tasksList) {
     const result = [];
     let taskCompleted = 0;
