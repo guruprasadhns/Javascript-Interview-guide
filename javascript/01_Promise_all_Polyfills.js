@@ -1,24 +1,23 @@
 /**
  * # Heading 1
  * 
- * This is a paragraph explaining the purpose of the file or code block.
+ *According to MDN – 
+  The Promise.all() accepts an array of promises and returns a promise 
+  that resolves when all of the promises in the array are fulfilled or when 
+  the iterable contains no promises. It rejects with the reason of the first 
+  promise that rejects. 
  * 
- * ## Heading 2
- * 
- * - Point 1: Explanation of some feature.
- * - Point 2: Highlighting another key point.
- * 
- * ### Code Example
- * ```javascript
- * function example() {
- *     console.log("This is a code example");
- * }
- * ```
+ 
  * 
  * ## Notes
- * 
- * 1. Keep your comments clear and concise.
- * 2. Follow a consistent style to make it easily readable.
+ * After reading the definition of  Promise.all()  we can  break down the 
+    problem in sub-problem and tackle it one by one. 
+    ●  It will return a promise. 
+    ●  The promise will resolve with the result of all the passed 
+    promises or reject with the error message of the first failed 
+    promise. 
+    ●  The results are returned in the same order as the promises are in 
+    the given array.
  */
 
 function _promiseAll(tasksList) {
